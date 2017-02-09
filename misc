@@ -1,0 +1,2 @@
+Fedora:
+edit /etc/gdm/custom.conf for disable Wayland
