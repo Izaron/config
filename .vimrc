@@ -1,6 +1,4 @@
 set mouse=a
-set nocompatible
-set backspace=indent,eol,start
 
 " Build single C++
 nnoremap <F5> :w <CR>:!g++ -std=c++11 -DUSE_CERR -DHOME % -o %< -O2 && ./%< <CR>
